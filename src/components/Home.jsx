@@ -16,7 +16,7 @@ const Home = () => {
                 contentType: 'html',
                 typeSpeed: 80,
                 backSpeed: 40,
-                backDelay: 4000,
+                backDelay: 2000,
                 loop: true,
                 smartBackspace: true,
                 showCursor: true,
