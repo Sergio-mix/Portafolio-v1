@@ -15,6 +15,16 @@
     }
 }
 
+body::-webkit-scrollbar {
+    width: 11px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #cac8c8;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #cac8c8;  /* creates padding around scroll thumb */
+}
+
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,17 +42,26 @@
 
 .content-nav {
     width: 98%;
-    box-shadow: 0 0 15px 0 #119499;
+    box-shadow: 0 0 15px 0 #a7a7a7;
     border-radius: 12px 12px 12px 12px;
     margin: 1% 1% 1% 1%;
     border: 20px solid transparent;
 }
 
 .text-nav:hover {
-    color: #272729;
+    color: #f54293;
 }
 
 .content-skills{
 padding-top: 20px;
     background-color: #1c1c1c;
+}
+
+.border-radius-12{
+    border-radius: 12px;
+}
+
+.button-contact{
+    background: #353535;
+    border-radius: 12px;
 }

@@ -8,7 +8,7 @@ import {
   FaLinkedinIn,
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import {BsFillPersonLinesFill, BsVoicemail, BsWhatsapp} from 'react-icons/bs';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
@@ -98,36 +98,28 @@ const Navbar = () => {
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 border-radius-12'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/sergio-alejandro-hernandez-zambrano-090070212/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] border-radius-12'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/Sergio-mix'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#25d366] border-radius-12'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              className='flex justify-between items-center w-full text-white-300'
+              href='https://wa.me/573222406726'
             >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Resume <BsFillPersonLinesFill size={30} />
+              Whatsapp <BsWhatsapp size={30} />
             </a>
           </li>
         </ul>
