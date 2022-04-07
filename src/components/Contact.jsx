@@ -10,13 +10,14 @@ const Contact = () => {
                     <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email -
                         myemail@gmail.com</p>
                 </div>
-                <input className='bg-[#EEEEEE] p-2 border-radius-12' type="text" placeholder='Name' name='name' required/>
+                <input className='bg-[#EEEEEE] p-2 border-radius-12' type="text" placeholder='Name' name='name'
+                       required/>
                 <input className='my-4 p-2 bg-[#EEEEEE] p-2 border-radius-12' type="email" placeholder='Email'
                        name='email' required/>
                 <textarea className='bg-[#EEEEEE] p-2 border-radius-12' name="message" rows="10"
                           placeholder='Message' required/>
                 <input type={'submit'}
-                       className='text-white  hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center button-contact'/>
+                       className='text-white hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto button-contact'/>
             </form>
         </div>
     )

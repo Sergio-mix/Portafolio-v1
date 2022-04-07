@@ -69,6 +69,7 @@ body::-webkit-scrollbar-thumb:hover {
 .button-contact {
     background: #353535;
     border-radius: 12px;
+    width: 50%;
 }
 
 .footer {
