@@ -1,5 +1,5 @@
 import React from 'react'
-import {BsWhatsapp} from "react-icons/bs";
+import {BsMailbox, BsMailbox2, BsVoicemail, BsWhatsapp} from "react-icons/bs";
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 
 const Footer = () => {
@@ -13,6 +13,9 @@ const Footer = () => {
                 <a href="https://github.com/Sergio-mix" target="_blank"
                    className="pr-5 flex justify-center items-center">
                     <FaGithub size={23} className="pr-1"/> Github
+                </a>
+                <a href="mailto:alejo.80.123@gmail.com" target="_blank" className="pr-5 flex justify-center items-center">
+                    <BsMailbox size={23} className="pr-1"/>Gmail
                 </a>
                 <a href="https://wa.me/573222406726" target="_blank" className="pr-5 flex justify-center items-center">
                     <BsWhatsapp size={23} className="pr-1"/>Whatsapp
