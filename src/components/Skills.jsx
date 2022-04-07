@@ -6,6 +6,7 @@ import Java from '../assets/java.png';
 import Python from '../assets/python.png';
 import MySql from '../assets/mysql.png';
 import CSS from '../assets/css.png';
+import Bootstrap from '../assets/bootstrap.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Mongo from '../assets/mongo.png';
@@ -56,6 +57,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500 content-skills hover:text-pink-600 hover:shadow-[#f54293] border-radius-12'>
                   <img className='w-20 mx-auto' src={CSS} alt="HTML icon" />
                   <p className='my-4'>CSS</p>
+              </div>
+              <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500 content-skills hover:text-pink-600 hover:shadow-[#f54293] border-radius-12'>
+                  <img className='w-20 mx-auto' src={Bootstrap} alt="HTML icon" />
+                  <p className='my-4'>BOOTSTRAP</p>
               </div>
           </div>
       </div>
