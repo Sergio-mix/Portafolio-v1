@@ -1,15 +1,15 @@
 import React from 'react';
 
-import HTML from '../assets/html.png';
-import SpringBoot from '../assets/spring.png';
-import Java from '../assets/java.png';
-import Python from '../assets/python.png';
-import MySql from '../assets/mysql.png';
-import CSS from '../assets/css.png';
-import Bootstrap from '../assets/bootstrap.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Mongo from '../assets/mongo.png';
+import HTML from '../assets/images/html.png';
+import SpringBoot from '../assets/images/spring.png';
+import Java from '../assets/images/java.png';
+import Python from '../assets/images/python.png';
+import MySql from '../assets/images/mysql.png';
+import CSS from '../assets/images/css.png';
+import Bootstrap from '../assets/images/bootstrap.png';
+import JavaScript from '../assets/images/javascript.png';
+import ReactImg from '../assets/images/react.png';
+import Mongo from '../assets/images/mongo.png';
 
 const Skills = () => {
   return (
