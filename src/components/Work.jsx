@@ -2,7 +2,7 @@ import React from 'react';
 import Box from "./Box";
 
 const Work = () => {
-    const jsonData= require('../assets/doc/data.json');
+    const jsonData= require('../assets/data/data.json');
     return (
         <div name='work' className='w-full md:h-100% text-gray-300 bg-[#1c1c1c] border-radius-12'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -16,6 +16,7 @@ const Work = () => {
                     {jsonData.map((item, index) => {
                         return (
                             <Box title={item.title}
+                                 imageHome={item.imageHome}
                                  images={item.images}
                                  code={item.code}
                             />
