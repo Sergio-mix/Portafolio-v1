@@ -1,35 +1,82 @@
-[
-  {
-    "title": "Veterinaria",
-    "imageHome": "",
-    "images": [],
-    "code": "https://github.com/Sergio-mix/Veterinaria-Django-Postgres-y-js"
-  },
-  {
-    "title": "Cuatrimotos",
-    "imageHome": "",
-    "images": [],
-    "code": "https://github.com/Sergio-mix/Inventario-cuatrimotos-Spring-boot-Mysql-js"
-  },
-  {
-    "title": "Chocolatería",
-    "imageHome": "https://user-images.githubusercontent.com/73502611/162849753-4042733f-19b7-467e-af90-8dce7333eb69.png",
-    "images": [
-      "https://user-images.githubusercontent.com/73502611/162849134-b0210d63-456d-4a65-9408-12eb3ec4f449.png",
-      "https://user-images.githubusercontent.com/73502611/162849444-6caaeecf-049f-4094-ab07-b63c100716a2.png",
-      "https://user-images.githubusercontent.com/73502611/162849482-e21e2f09-f7b7-40cf-9330-087cb4b9d8c3.png",
-      "https://user-images.githubusercontent.com/73502611/162849534-5001ff0c-05ee-471f-91b5-d75ac6f9bab9.png",
-      "https://user-images.githubusercontent.com/73502611/162849578-ae4335b9-9861-44fb-b282-f4dd1064ad03.png",
-      "https://user-images.githubusercontent.com/73502611/162849578-ae4335b9-9861-44fb-b282-f4dd1064ad03.png",
-      "https://user-images.githubusercontent.com/73502611/162849635-4fe3baae-57c4-468d-b7b9-a70b16683abf.png",
-      "https://user-images.githubusercontent.com/73502611/162849661-117ec6cc-c753-47b0-a536-d177ae0aedb6.png",
-      "https://user-images.githubusercontent.com/73502611/162849679-2be72994-3b20-4a3f-bc4f-dfa1d64dcc4e.png",
-      "https://user-images.githubusercontent.com/73502611/162849692-818baba8-1bf3-4ae4-8a4e-cb64fd48bef9.png",
-      "https://user-images.githubusercontent.com/73502611/162849692-818baba8-1bf3-4ae4-8a4e-cb64fd48bef9.png",
-      "https://user-images.githubusercontent.com/73502611/162849729-25f79317-7aa2-498b-a63b-04f399293fbc.png",
-      "https://user-images.githubusercontent.com/73502611/162849753-4042733f-19b7-467e-af90-8dce7333eb69.png",
-      "https://user-images.githubusercontent.com/73502611/162849753-4042733f-19b7-467e-af90-8dce7333eb69.png"
-    ],
-    "code": "https://github.com/Sergio-mix/Chocolateria-Spring-Mongo-React"
-  }
-]
+{
+  "skills": [
+    {
+      "img": "https://user-images.githubusercontent.com/73502611/166867805-14f61de3-c616-4265-b186-e5407fb0d283.png",
+      "name": "Java"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/73502611/166867784-4db2db67-3174-4677-9b4a-06f1422d5871.png",
+      "name": "Spring Boot"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/73502611/166867771-2a08ebb9-96a5-4188-9a83-ff77a565428b.png",
+      "name": "Python"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/73502611/166867754-d5b92f51-b1eb-4329-a1dd-f743d35f7f7e.png",
+      "name": "MySql"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/73502611/166867732-48762b39-55b5-45d7-ae16-9c30c26d2783.png",
+      "name": "Mongo DB"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/73502611/166867722-3c640418-c6cf-479b-97f1-4bba2f56515e.png",
+      "name": "React"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/73502611/166867707-c0f9d1f2-73db-463e-8b11-30750f71eaad.png",
+      "name": "JavaScript"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/73502611/166867683-6a2a5d5e-c4ae-4b59-9c3b-d959257db325.png",
+      "name": "Html"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/73502611/166867661-210b5c19-084d-4b0a-b70c-dd55fec3c2b0.png",
+      "name": "Css"
+    },
+    {
+      "img": "https://user-images.githubusercontent.com/73502611/166867631-1ea93a4c-6533-4f32-97d8-5eae95b97e17.png",
+      "name": "Bootstrap"
+    }
+  ],
+  "word": [
+    {
+      "id": "1",
+      "title": "Veterinaria",
+      "imageHome": "",
+      "images": [],
+      "code": "https://github.com/Sergio-mix/Veterinaria-Django-Postgres-y-js"
+    },
+    {
+      "id": "2",
+      "title": "Cuatrimotos",
+      "imageHome": "",
+      "images": [],
+      "code": "https://github.com/Sergio-mix/Inventario-cuatrimotos-Spring-boot-Mysql-js"
+    },
+    {
+      "id": "3",
+      "title": "Chocolatería",
+      "imageHome": "https://user-images.githubusercontent.com/73502611/162849753-4042733f-19b7-467e-af90-8dce7333eb69.png",
+      "images": [
+        "https://user-images.githubusercontent.com/73502611/162849134-b0210d63-456d-4a65-9408-12eb3ec4f449.png",
+        "https://user-images.githubusercontent.com/73502611/162849444-6caaeecf-049f-4094-ab07-b63c100716a2.png",
+        "https://user-images.githubusercontent.com/73502611/162849482-e21e2f09-f7b7-40cf-9330-087cb4b9d8c3.png",
+        "https://user-images.githubusercontent.com/73502611/162849534-5001ff0c-05ee-471f-91b5-d75ac6f9bab9.png",
+        "https://user-images.githubusercontent.com/73502611/162849578-ae4335b9-9861-44fb-b282-f4dd1064ad03.png",
+        "https://user-images.githubusercontent.com/73502611/162849578-ae4335b9-9861-44fb-b282-f4dd1064ad03.png",
+        "https://user-images.githubusercontent.com/73502611/162849635-4fe3baae-57c4-468d-b7b9-a70b16683abf.png",
+        "https://user-images.githubusercontent.com/73502611/162849661-117ec6cc-c753-47b0-a536-d177ae0aedb6.png",
+        "https://user-images.githubusercontent.com/73502611/162849679-2be72994-3b20-4a3f-bc4f-dfa1d64dcc4e.png",
+        "https://user-images.githubusercontent.com/73502611/162849692-818baba8-1bf3-4ae4-8a4e-cb64fd48bef9.png",
+        "https://user-images.githubusercontent.com/73502611/162849692-818baba8-1bf3-4ae4-8a4e-cb64fd48bef9.png",
+        "https://user-images.githubusercontent.com/73502611/162849729-25f79317-7aa2-498b-a63b-04f399293fbc.png",
+        "https://user-images.githubusercontent.com/73502611/162849753-4042733f-19b7-467e-af90-8dce7333eb69.png",
+        "https://user-images.githubusercontent.com/73502611/162849753-4042733f-19b7-467e-af90-8dce7333eb69.png"
+      ],
+      "code": "https://github.com/Sergio-mix/Chocolateria-Spring-Mongo-React"
+    }
+  ]
+}
