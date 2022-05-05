@@ -42,7 +42,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .content-div:hover {
-    background: linear-gradient(to right, #1c1b1b, rgb(28, 27, 27)) !important;
+    background: linear-gradient(to right, #252424, rgb(32, 30, 30)) !important;
 }
 
 .modal-container {
@@ -60,7 +60,7 @@ body::-webkit-scrollbar-thumb:hover {
     transition: opacity 0.3s ease;
 }
 
-.modal {
+.modal-div {
     background-color: #1c1b1b;
     width: 80%;
     max-width: 100%;
