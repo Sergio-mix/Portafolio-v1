@@ -67,6 +67,43 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 10px;
 }
 
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
+
+.modal-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+}
+
+.modal {
+    background-color: #201e1e;
+    width: 80%;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.show {
+
+    opacity: 1;
+}
+
+
 .content-nav {
     background: transparent;
 }

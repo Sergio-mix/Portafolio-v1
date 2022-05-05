@@ -12,9 +12,10 @@ const Work = () => {
         setModalData(data);
     }
 
-    const handleClose = () => {
-        setModal(false);
+    function handleClose() {
+        setModal(false)
     }
+
     return (
         <div name='work' className='w-full md:h-100% text-gray-300 bg-[#1c1c1c] border-radius-12'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -35,7 +36,7 @@ const Work = () => {
                     })}
                 </div>
             </div>
-            <Modal isVisible={modal} data={modalData} close={handleClose}/>
+            <Modal show={modal} data={modalData} close={handleClose}/>
         </div>
     );
 };

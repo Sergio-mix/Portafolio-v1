@@ -43,21 +43,18 @@
   ],
   "word": [
     {
-      "id": "1",
       "title": "Veterinaria",
       "imageHome": "",
       "images": [],
       "code": "https://github.com/Sergio-mix/Veterinaria-Django-Postgres-y-js"
     },
     {
-      "id": "2",
       "title": "Cuatrimotos",
       "imageHome": "",
       "images": [],
       "code": "https://github.com/Sergio-mix/Inventario-cuatrimotos-Spring-boot-Mysql-js"
     },
     {
-      "id": "3",
       "title": "Chocolatería",
       "imageHome": "https://user-images.githubusercontent.com/73502611/162849753-4042733f-19b7-467e-af90-8dce7333eb69.png",
       "images": [
